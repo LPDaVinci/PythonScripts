@@ -11,6 +11,14 @@ import functions as f
 # str(VALUE) # um den Datatype zu verändern auf einen String
 # booolean (true, false)
 
+# if elif else Bedingungen
+# if Bedingung:
+# elif Bedingung:
+# else:
+# while:
+# for Variable in Objekt:
+# Beispiel: for x in range(4,9,2):
+
 # var
 # varname = "text" or 'text'
 
