@@ -4,7 +4,7 @@ import numpy as np
 # Importiere eine andere py Datei
 import functions as f
 
-#type
+# type
 # str
 # int
 # float
