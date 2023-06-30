@@ -18,3 +18,12 @@ def bezugskalkulation(bruttolistenpreis, ust_satz, lieferer_rabatt, lieferer_sko
 
     # Rückgabe der Ergebnisse
     return netto_listenpreis, zieleinkaufspreis, bareinkaufspreis, einstandspreis
+
+# handelskalkulation
+def handelskalkulation(einstandspreis, gewinnspanne):
+    # Berechnung des Verkaufspreises
+    verkaufspreis = einstandspreis * (1 + gewinnspanne / 100)
+
+    # Rückgabe des Verkaufspreises
+    return verkaufspreis
+
