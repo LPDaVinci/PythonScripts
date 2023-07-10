@@ -37,7 +37,7 @@ class CalculatorGUI:
             
             netto_listenpreis, zieleinkaufspreis, bareinkaufspreis, einstandspreis = self.bezugskalkulation(bruttolistenpreis, ust_satz, lieferer_rabatt, lieferer_skonto, bezugskosten)
             
-            messagebox.showinfo("Ergebnisse", f"Barverkaufspreis: {barverkaufspreis}\nZielverkaufspreis: {zielverkaufspreis}\nListenverkaufspreis netto: {listenverkaufspreis_netto}\nListenverkaufspreis brutto: {listenverkaufspreis_brutto}")
+            messagebox.showinfo("Ergebnisse", f"Nettolistenpreis: {netto_listenpreis}\nZieleinkaufspreis: {zieleinkaufspreis}\nBareinkaufspreis: {bareinkaufspreis}\nEinstandspreis: {einstandspreis}")
 
         elif choice == "Handelskalkulation":
             bezugspreis = float(tk.simpledialog.askstring("Handelskalkulation", "Bezugspreis:"))
