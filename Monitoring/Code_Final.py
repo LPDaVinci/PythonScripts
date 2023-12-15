@@ -11,7 +11,7 @@ from email.mime.multipart import MIMEMultipart
 
 class SystemMonitor:
     def __init__(self):
-        self.webhook_url = 'YOURWEBHOOK'
+        self.webhook_url = 'YOURWEBHOOKsdffd'
         self.setup_logging()
 
     def setup_logging(self):
